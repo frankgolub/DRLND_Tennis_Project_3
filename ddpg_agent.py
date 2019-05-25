@@ -9,9 +9,9 @@ import torch
 import torch.nn.functional as F
 import torch.optim as optim
 
-#device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 #device = torch.device("cpu" if torch.cuda.is_available() else "cpu")
-device = "cpu"
+#device = "cpu"
 print('device = ', device)
 
 class Agent():
