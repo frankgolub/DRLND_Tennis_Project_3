@@ -34,15 +34,15 @@ conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
     
 
-5. In the DRLND GitHub repository, create folders `deep-reinforcement-learning/unity_environments/Vis_20_agents` and `deep-reinforcement-learning/unity_environments/NoVis_20_agents`, place the downloaded environments inside, and unzip the files. 
+5. In the DRLND GitHub repository, create folders `deep-reinforcement-learning/unity_environments/Tennis_Linux` and `deep-reinforcement-learning/unity_environments/Tennis_Linux_NoVis`, place the downloaded environments inside, and unzip the files. 
 
 ### Training and Visualization
 
-1. Navigate to `p2_continuous-control/` and run the following:
+1. Navigate to `p3_collab-compet/` and run the following:
 
 ```
 conda activate drlnd
-jupyter notebook Continuous_Control.ipynb
+jupyter notebook Tennis.ipynb
 ```
 
 2. To train the environment without visualization, set the variable **visible_environment** to **False**. <br /> At the top of the jupyter notebook, click *Kernel -> Restart & Run All*. 
@@ -52,5 +52,5 @@ jupyter notebook Continuous_Control.ipynb
 
 4. To visualize the trained environment, set the variable **visible_environment** to **True**. 
 <br /> At the top of the jupyter notebook, click *Kernel -> Restart*.
-<br /> Run each section _**except**_ for **3. Train the Agent with DQN**
+<br /> Run each section _**except**_ for **3. Train the Agent with DDPG**
 
