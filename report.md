@@ -16,7 +16,7 @@ The following is taken from the course materials:
 >The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
 <p align="center">
-  <img width="460" height="300" src="Results/Reacher_soln.png">
+  <img width="460" height="300" src="Results/Tennis_soln.png">
 </p>
 <!-- https://gist.github.com/DavidWells/7d2e0e1bc78f4ac59a123ddf8b74932d -->
 
@@ -25,7 +25,7 @@ The following is taken from the course materials:
 </p>
 
 
-This repository presents a solution in 1098 episodes using a Deep Deterministic Policy Gradient approach. The two agents train with the same actor and critic. The code and network architectures are adapted from a Udacity-supplied solution to the OpenAI-gym Pendulum environment. It closely reflects the solution to the [Navigation](https://github.com/frankgolub/DRLND_Reacher_Project_2) project. Fig. 1 depicts two rackets bouncing a ball over a net. Videos before and after training can be seen [here]() and [here]() respectively. Fig. 2 shows the score increasing stochastically as the model trains.
+This repository presents a solution in 1098 episodes using a Deep Deterministic Policy Gradient approach. The two agents train with the same actor and critic. The code and network architectures are adapted from a Udacity-supplied solution to the OpenAI-gym Pendulum environment. It closely reflects the solution to the [Navigation](https://github.com/frankgolub/DRLND_Reacher_Project_2) project. Fig. 1 depicts two rackets bouncing a ball over a net. Videos before and after training can be seen [here](https://youtu.be/9ZIt3VUNL0Q) and [here](https://youtu.be/gHI-Z6XIuKY) respectively. Fig. 2 shows the score increasing stochastically as the model trains.
 
 The network trains in 7 min. 41 s. using an Intel i9-9900K 8-core CPU, 64 GB of RAM, and an 11GB NVIDIA 2080 TI GPU.
 
