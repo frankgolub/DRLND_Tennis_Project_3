@@ -1,7 +1,7 @@
-# Project 2: Continuous Control
+# Project 3: Collaboration and Competition
 
 
-This README demonstrates how to train and visualize a solution to the Continuous Project in the Udacity Deep Reinforcement Learning Nanodegree. It is adapted from the course README.
+This README demonstrates how to train and visualize a solution to the Collaboration and Competition Project in the Udacity Deep Reinforcement Learning Nanodegree. It is adapted from the course README.
 
 ### Getting Started
 
